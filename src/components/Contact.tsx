@@ -33,6 +33,7 @@ export const Contact = () => {
             <img src="/QR.jpg" alt="Contact QR" className="w-full h-full object-cover" />
           </div>
           <div className="mt-6 text-center">
+             <p className="text-sm font-medium text-white/80 mb-2">For Saving my Details in your contact</p>
              <p className="text-xs font-mono uppercase tracking-widest text-white/40">Scan to Connect</p>
           </div>
         </motion.div>

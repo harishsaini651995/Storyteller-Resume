@@ -25,7 +25,7 @@ export const Overlay = () => {
         <div className="text-center">
           <h1 className="text-5xl md:text-8xl font-bold tracking-tighter text-white">
             HARISH SAINI.<br/>
-            <span className="text-white/40">GRAPHIC DESIGNER.</span>
+            <span className="text-white/40">SR. CREATIVE DESIGNER.</span>
           </h1>
         </div>
       </motion.section>
@@ -37,9 +37,8 @@ export const Overlay = () => {
       >
         <div className="max-w-xl">
           <p className="text-3xl md:text-5xl font-medium tracking-tight text-white leading-tight">
-            I craft immersive <br/>
-            <span className="text-blue-400">visual narratives</span> <br/>
-            that tell a story.
+            "Elevating brands through <br/>
+            <span className="text-blue-400">design excellence</span>."
           </p>
         </div>
       </motion.section>
@@ -51,9 +50,8 @@ export const Overlay = () => {
       >
         <div className="max-w-xl text-right">
           <p className="text-3xl md:text-5xl font-medium tracking-tight text-white leading-tight">
-            Where <span className="text-purple-400">strategy</span> meets <br/>
-            <span className="text-emerald-400">visual storytelling</span> <br/>
-            for global brands.
+            "Bridging <span className="text-purple-400">creativity</span> <br/>
+            with <span className="text-emerald-400">business goals</span>."
           </p>
         </div>
       </motion.section>

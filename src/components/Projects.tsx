@@ -8,25 +8,45 @@ const projects = [
     title: "Brand Identity & Packaging",
     category: "Design",
     image: "/Brand Identity & Packaging.jpg",
-    link: "#"
+    links: [
+        { name: "Brand Manual", url: "#" },
+        { name: "Gift Packaging", url: "#" },
+        { name: "Visual Strategy", url: "#" }
+    ]
   },
   {
-    title: "Event & Digital Experience",
-    category: "Experience",
-    image: "/Event & Digital Experience Design.jpg",
-    link: "#"
-  },
-  {
-    title: "Social Media & Marketing",
+    title: "Social Media & Marketing Creatives",
     category: "Digital",
     image: "/Social Media & Marketing Creatives.jpg",
-    link: "#"
+    links: [
+        { name: "Social Growth", url: "#" },
+        { name: "Marketing Kit", url: "#" },
+        { name: "Campaign Deck", url: "#" }
+    ]
   },
   {
-      title: "Print & Editorial Design",
-      category: "Design",
-      image: "/Print & Editorial Design.jpg",
-      link: "#"
+    title: "Print & Editorial Design",
+    category: "Print",
+    image: "/Print & Editorial Design.jpg",
+    links: [
+        { name: "Editorial", url: "#" },
+        { name: "Layout", url: "#" },
+        { name: "Typography", url: "#" },
+        { name: "Print Media", url: "#" },
+        { name: "Catalog", url: "#" }
+    ]
+  },
+  {
+      title: "Event & Digital Experience Design",
+      category: "Experience",
+      image: "/Event & Digital Experience Design.jpg",
+      links: [
+          { name: "UI Design", url: "#" },
+          { name: "UX Strategy", url: "#" },
+          { name: "Interactivity", url: "#" },
+          { name: "Prototypes", url: "#" },
+          { name: "Experience", url: "#" }
+      ]
   }
 ];
 
@@ -65,15 +85,20 @@ export const Projects = () => {
                 {project.title}
               </h4>
               
-              <motion.a
-                href={project.link}
-                className="inline-flex w-fit items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-black transition-all hover:bg-white/80"
-              >
-                View Project
-                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M1 11L11 1M11 1H1M11 1V11" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-              </motion.a>
+              <div className="flex flex-wrap gap-2">
+                {project.links.map((link, lIndex) => (
+                  <motion.a
+                    key={lIndex}
+                    href={link.url}
+                    className="inline-flex w-fit items-center gap-2 rounded-full bg-white px-4 py-2 text-xs font-semibold text-black transition-all hover:bg-white/80"
+                  >
+                    {link.name}
+                    <svg width="10" height="10" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1 11L11 1M11 1H1M11 1V11" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </motion.a>
+                ))}
+              </div>
             </div>
             
             {/* Subtle Glow on Hover */}
