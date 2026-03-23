@@ -12,14 +12,14 @@ export const Contact = () => {
           <h3 className="text-5xl md:text-8xl font-bold text-white tracking-tighter italic mb-8">Let's Create.</h3>
           
           <div className="space-y-6">
-            <a href="mailto:harishsaini@example.com" className="block text-2xl md:text-4xl text-white hover:text-white/60 transition-colors tracking-tight font-medium">
-              harishsaini@portfoliodesign.com
+            <a href="mailto:hello@example.com" className="block text-2xl md:text-4xl text-white hover:text-white/60 transition-colors tracking-tight font-medium">
+              mahmudul@portfolio.dev
             </a>
             <div className="flex gap-8 text-white/40 font-mono uppercase tracking-[0.2em] text-xs">
-              <a href="https://github.com/harishsaini651995" className="hover:text-white transition-colors">GitHub</a>
               <a href="#" className="hover:text-white transition-colors">LinkedIn</a>
               <a href="#" className="hover:text-white transition-colors">Behance</a>
-              <a href="#" className="hover:text-white transition-colors">Dribbble</a>
+              <a href="#" className="hover:text-white transition-colors">Twitter</a>
+              <a href="#" className="hover:text-white transition-colors">Github</a>
             </div>
           </div>
         </div>
@@ -39,7 +39,7 @@ export const Contact = () => {
       </div>
 
       <footer className="mt-32 pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
-        <p className="text-sm font-mono text-white/20">© 2026 Harish Saini. Built with Next.js & Framer Motion.</p>
+        <p className="text-sm font-mono text-white/20">© 2026 Mahmudul Hasan. Built with Next.js & Framer Motion.</p>
         <p className="text-sm font-mono text-white/20">Awwwards SOTD Intent.</p>
       </footer>
     </section>

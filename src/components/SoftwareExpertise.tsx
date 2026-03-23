@@ -4,9 +4,9 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const skills = [
-  "Graphic Design", "Brand Identity", "Presentation Strategy", "Visual Storytelling",
-  "Photoshop", "Illustrator", "InDesign", "Corel Draw",
-  "2D Animation", "VFX", "Data Visualization", "Print & Editorial"
+  "React / Next.js", "TypeScript", "Tailwind CSS", "Framer Motion",
+  "Node.js", "Three.js", "GSAP", "Creative Coding",
+  "UI/UX Design", "WebGL", "PostgreSQL", "Cloud Architecture"
 ];
 
 export const SoftwareExpertise = () => {

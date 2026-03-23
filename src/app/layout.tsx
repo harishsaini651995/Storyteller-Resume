@@ -8,8 +8,8 @@ import { Navbar } from "@/components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Harish Saini | Graphic Designer & Storyteller",
-  description: "Senior Graphic Designer and Presentation Strategist specializing in visual storytelling and high-impact design.",
+  title: "Mahmudul Hasan | Creative Developer",
+  description: "Senior Creative Developer specializing in Next.js, Framer Motion, and high-performance scroll interactions.",
 };
 
 export default function RootLayout({

@@ -5,22 +5,22 @@ import { motion } from 'framer-motion';
 
 const experiences = [
   {
-    role: "Presentation Strategist & Director",
-    company: "A1 Slides",
-    period: "2015 - Present",
-    description: "Building strategic narratives and visually driven data storytelling for Fortune 500 companies."
+    role: "Senior Creative Developer",
+    company: "Studio X",
+    period: "2022 - Present",
+    description: "Leading the development of high-end digital experiences for international clients."
   },
   {
-    role: "Senior Graphic Designer",
-    company: "Creative Vision",
-    period: "2010 - 2015",
-    description: "Specializing in brand identity, packaging, and high-impact marketing visuals."
+    role: "Interactive Designer",
+    company: "Meta Creative",
+    period: "2020 - 2022",
+    description: "Focused on mobile-first immersive interfaces and scroll-linked animations."
   },
   {
-      role: "Visual Designer",
-      company: "Design Studio",
-      period: "2008 - 2010",
-      description: "Crafting editorial designs and print media for various lifestyle brands."
+      role: "Full Stack Engineer",
+      company: "Innovate Labs",
+      period: "2018 - 2020",
+      description: "Building scalable web applications and internal design systems."
   }
 ];
 
