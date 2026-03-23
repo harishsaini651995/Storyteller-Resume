@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #121212;
+  --color-foreground: #ffffff;
+}
+
+@layer base {
+  :root {
+    --background: #121212;
+    --foreground: #ffffff;
+  }
+
+  * {
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-feature-settings: "rlig" 1, "calt" 1;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .glass-effect {
+    @apply backdrop-blur-xl bg-white/5 border border-white/10;
+  }
+
+  .text-glow {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+  }
+}
