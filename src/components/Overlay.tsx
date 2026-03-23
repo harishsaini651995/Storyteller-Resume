@@ -24,8 +24,8 @@ export const Overlay = () => {
       >
         <div className="text-center">
           <h1 className="text-5xl md:text-8xl font-bold tracking-tighter text-white">
-            MAHMUDUL HASAN.<br/>
-            <span className="text-white/40">CREATIVE DEVELOPER.</span>
+            HARISH SAINI.<br/>
+            <span className="text-white/40">GRAPHIC DESIGNER.</span>
           </h1>
         </div>
       </motion.section>
@@ -38,8 +38,8 @@ export const Overlay = () => {
         <div className="max-w-xl">
           <p className="text-3xl md:text-5xl font-medium tracking-tight text-white leading-tight">
             I craft immersive <br/>
-            <span className="text-blue-400">digital experiences</span> <br/>
-            that push boundaries.
+            <span className="text-blue-400">visual narratives</span> <br/>
+            that tell a story.
           </p>
         </div>
       </motion.section>
@@ -51,9 +51,9 @@ export const Overlay = () => {
       >
         <div className="max-w-xl text-right">
           <p className="text-3xl md:text-5xl font-medium tracking-tight text-white leading-tight">
-            Bridging the gap <br/>
-            between <span className="text-purple-400">design</span> <br/>
-            and <span className="text-emerald-400">engineering</span>.
+            Where <span className="text-purple-400">strategy</span> meets <br/>
+            <span className="text-emerald-400">visual storytelling</span> <br/>
+            for global brands.
           </p>
         </div>
       </motion.section>
